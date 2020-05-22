@@ -1,6 +1,6 @@
 namespace course.Services
 {
-  public class BrasilTaxService
+  class BrasilTaxService : ITaxService
   {
     public double Tax(double amount)
     {

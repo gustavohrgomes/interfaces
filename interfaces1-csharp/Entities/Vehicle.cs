@@ -1,6 +1,6 @@
 namespace course.Entities
 {
-    public class Vehicle
+    class Vehicle
     {
         public string Model { get; set; }
 

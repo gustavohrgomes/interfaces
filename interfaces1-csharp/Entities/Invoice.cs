@@ -2,7 +2,7 @@ using System.Globalization;
 
 namespace course.Entities
 {
-  public class Invoice
+  class Invoice
   {
     public double BasicPayment { get; set; }
     public double Tax { get; set; }
