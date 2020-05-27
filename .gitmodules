@@ -1,0 +1,3 @@
+[submodule "interfaces4-csharp"]
+	path = interfaces4-csharp
+	url = https://github.com/acenelio/interfaces3-csharp.git
