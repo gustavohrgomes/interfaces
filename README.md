@@ -46,7 +46,8 @@ Outro exemplo:
 
 ```csharp
 namespace Course {
-  class Employee : IComparable {
+  // Classe Employee implementa a Interface IComparable
+  class Employee : IComparable { 
 
     public string Name { get; set; }
     public double Salary { get; set; }
@@ -60,7 +61,7 @@ namespace Course {
     public override string ToString() {
       return Name + ", " + Salary.ToString("F2", CultureInfo.InvariantCulture);
     }
-    
+
     // Método da Interface IComparable implementado
     public int CompareTo(object obj) {
       if (!(obj is Employee)) {
